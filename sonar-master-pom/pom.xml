@@ -4,7 +4,7 @@
 	<groupId>com.evoke.codequality</groupId>
 	<artifactId>sonar-master-pom</artifactId>
 	<version>1.0.0</version>
-	<packaging>pom</packaging>
+	<packaging>pom</packaging>    
 
 	<dependencyManagement>
 		<dependencies>
