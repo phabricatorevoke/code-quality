@@ -34,4 +34,8 @@ public class CustomerHelper {
 			readFromFileInputStream(filePath, fileName);
 		}
 	}
+	
+	public static String formatString(String input){
+		return input.toUpperCase();
+	}
 }
