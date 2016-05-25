@@ -38,4 +38,12 @@ public class CustomerHelper {
 	public static String formatString(String input){
 		return input.toUpperCase();
 	}
+	
+	public static String methodOne(String input){
+		return input.toUpperCase();
+	}
+	
+	public static String methodTwo(String input){
+		return input.toUpperCase();
+	}
 }
