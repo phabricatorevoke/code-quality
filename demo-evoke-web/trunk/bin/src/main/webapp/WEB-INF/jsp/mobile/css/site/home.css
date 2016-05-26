@@ -1,0 +1,99 @@
+#header,
+#footer,
+.subHeader {
+  background-color: #555758;
+}
+
+.storeContainer,
+#pageContainer {
+  background-color: #F1F3F6;
+}
+
+li.productTitle {
+  background-image: -webkit-gradient(linear, left bottom, left top,
+    from(rgba(132, 132, 132, 1)),
+    to(rgba(132, 132, 132, 0))
+  );
+  background-image: -moz-linear-gradient(center bottom, #F1F3F6, rgba(191, 192, 195, 0) 40%);
+  color: white;
+}
+
+.headerLogo {
+  width: 75px;
+  height: 40px;
+}
+
+/* Product details title */
+p.detailsTitle {
+  color: #737C0B;
+}
+
+/* Product sliders title ("Recently Viewed Items", "Related Items") */
+.sliderTitle {
+  color: #737C0B;
+}
+
+#emailMePopup li:first-child,
+#contactInfo li:first-child,
+#emailMeConfirm li:first-child,
+#modalMessageBox li:first-child,
+#noSearchResultsPopup li:first-child,
+ul.crumbDataList li {
+  background-color: #555758;
+}
+
+.subHeader div.highlight a,
+.subHeader div.highlight div {
+  background-image: -webkit-gradient(linear, left bottom, left top,
+    color-stop(0.53, #959B9F),
+    color-stop(1, #727577)
+  );
+}
+
+/* Results/refine links container (is on top of the Browse/Search pages) */
+.switchBar {
+  background-image: -webkit-gradient(linear, left top, left bottom,
+    color-stop(0.67, #3c4553),
+    color-stop(1, #575d67)
+  );
+  border-bottom: 1px solid #707070;
+  border-top: 1px solid #707070;
+}
+
+.switchBar button:first-of-type {
+  background-image: -webkit-gradient(linear, left top, left bottom,
+    color-stop(0.67, #3c4553),
+    color-stop(1, #575d67)
+  );
+}
+
+.switchBar button:last-of-type {
+  background-image: -webkit-gradient(linear, left bottom, left top,
+    color-stop(0.3, #454545),
+    color-stop(1, #454545)
+  );
+}
+
+ul.crumbDataList li:not(:last-of-type ) {
+  background-image: -webkit-gradient(linear, left top, left bottom,
+    color-stop(0.97, #3f4756),
+    color-stop(1, #5a616e)
+  );
+}
+
+ul.crumbDataList li:last-of-type {
+  background-image: -webkit-gradient(linear, left top, left bottom,
+    color-stop(0.77, #3f4756),
+    color-stop(1, #454545)
+  );
+}
+
+#multisiteHeader {
+  background-color: #555758;
+}
+
+.subHeader div,
+.subHeader div div,
+.subHeader > div.hide {
+  background-image: none;
+}
