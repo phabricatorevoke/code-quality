@@ -9,6 +9,9 @@ import org.apache.log4j.Logger;
 
 public class CustomerHelper {
 	private static final Logger LOGGER = Logger.getLogger(CustomerHelper.class);
+	private Integer counter;
+	
+	
 	private CustomerHelper(){}
 	
 	public static void readFile(String filePath, String fileName) {
