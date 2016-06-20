@@ -10,11 +10,10 @@ import org.apache.log4j.Logger;
 public class CustomerHelper {
 	private static final Logger LOGGER = Logger.getLogger(CustomerHelper.class);
 	private Integer counter;
-	
-	
-	private CustomerHelper(){}
+	private boolean isValidInput;
 	
 	public static void readFile(String filePath, String fileName) {
+		System.out.println("filePath: "+filePath+", fileName: "+fileName);
 		readFromFileInputStream(filePath, fileName);
 	}
 
@@ -28,7 +27,7 @@ public class CustomerHelper {
 		} catch (FileNotFoundException e) {
 			LOGGER.error("Requested file not found: "+filePath + fileName, e);
 		} catch (IOException e) {
-			LOGGER.error("Error while reading the file.", e);
+			e.printStackTrace();
 		}
 	}
 
