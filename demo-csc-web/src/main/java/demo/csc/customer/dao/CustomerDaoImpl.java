@@ -8,5 +8,10 @@ public class CustomerDaoImpl implements CustomerDao{
 	public Customer getUserById(String id) {
 		return null;
 	}
+	
+	@Override
+	public Address getUserAddress(String id) {
+		return null;
+	}
 
 }

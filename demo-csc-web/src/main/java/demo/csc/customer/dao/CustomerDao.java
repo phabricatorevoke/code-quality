@@ -4,4 +4,5 @@ import demo.csc.customer.domain.Customer;
 
 public interface CustomerDao {
 	Customer getUserById(String id);
+	Address getUserAddress(String id);
 }
