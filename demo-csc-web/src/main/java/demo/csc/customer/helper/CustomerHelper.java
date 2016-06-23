@@ -4,8 +4,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.logging.Logger;
 
-import org.apache.log4j.Logger;
+import demo.csc.customer.domain.Address;
 
 public class CustomerHelper {
 	private static final Logger LOGGER = Logger.getLogger(CustomerHelper.class);
@@ -39,5 +40,13 @@ public class CustomerHelper {
 	
 	public static String formatString(String input){
 		return input.toUpperCase();
+	}
+	
+	public static String formatAddress(Address address){
+		String formattedAddr="";
+		if(address!=null && address.getFlatNo()!=null && address.getApartmentName()!=null){
+			formattedAddr = address.getFlatNo()+", "+address.getApartmentName();
+		}
+		return formattedAddr;
 	}
 }

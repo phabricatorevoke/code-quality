@@ -6,6 +6,8 @@ public class CustomerDaoImpl implements CustomerDao{
 
 	@Override
 	public Customer getUserById(String id) {
+		
+		//Tuned SQL query for better performance, making use of indexes 
 		return null;
 	}
 

@@ -1,28 +1,26 @@
 package demo.csc.customer.domain;
 
-public class Customer {
-	private String userId;
-	private String userName;
-	private Address address;
+public class Address {
+	private String apartmentName;
+	private String flatNo;
+	private String pincode;
 	
-	public String getUserId() {
-		return userId;
+	public String getApartmentName() {
+		return apartmentName;
 	}
-	public void setUserId(String userId) {
-		this.userId = userId;
+	public void setApartmentName(String apartmentName) {
+		this.apartmentName = apartmentName;
 	}
-	public String getUserName() {
-		return userName;
+	public String getFlatNo() {
+		return flatNo;
 	}
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setFlatNo(String flatNo) {
+		this.flatNo = flatNo;
 	}
-	
-	public void setAddress(Address address){
-		this.address = address;
+	public String getPincode() {
+		return pincode;
 	}
-	
-	public Address getAddress(){
-		return address;
+	public void setPincode(String pincode) {
+		this.pincode = pincode;
 	}
 }
